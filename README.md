@@ -19,7 +19,7 @@ Este projeto demonstra um pipeline de dados robusto desde a ingestão até a vis
 ## Arquitetura
 
 ### Arquitetura do Banco de Produção (PostgreSQL)
-*Nesse script os dados do banco de dados nãos erão fornecidos*
+*Nesse script os dados de acesso ao banco de dados não serão fornecidos*
 
 ![Arquitetura do Banco de Produção](architecture/production_database_architecture.png)
 
