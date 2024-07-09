@@ -17,7 +17,8 @@ Além das métricas básicas apresentadas, foram realizadas análises adicionais
 
 ### Contribuições Futuras
 
-Este relatório serviu como base para futuras implementações de BI, permitindo a expansão das análises disponíveis que estão dispon´vieis no banco do snowflake
+Este relatório serviu como base para futuras implementações de BI, permitindo a expansão das análises disponíveis que estão disponívieis no banco do snowflake
+
 ![image](https://github.com/filipevilelaluz/my-data-engineering-project-sales/assets/74246172/6963688e-9f64-4ce4-8429-6ccdeee54977)
 
 - Análise de vendas temporais agregadas
