@@ -69,9 +69,9 @@ DAGs do Airflow: São criados gráficos acíclicos direcionados (DAGs) no Airflo
 **Google Data Studio:** Criação de dashboards e visualizações.
 Essa arquitetura permite uma pipeline de dados robusta e eficiente, garantindo que os dados estejam sempre atualizados, bem transformados e prontamente disponíveis para análise e visualização.
 
-## Como Usar
+## Passo a Passo
 
-Instruções detalhadas sobre como configurar e executar o projeto.
+Instruções detalhadas sobre como foi configurado e executado o projeto.
 
 1. **Análise do Banco de Dados**: [1_data_analysis/](1_data_analysis/)
 2. **Configuração do EC2 e Docker**: [2_ec2_setup/](2_ec2_setup/)
