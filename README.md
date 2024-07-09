@@ -4,6 +4,19 @@
 
 Este projeto demonstra um pipeline de dados robusto desde a ingestão até a visualização para uma empresa de veículos com várias concessionárias no Brasil. O pipeline automatiza a ingestão de dados de um banco de dados PostgreSQL, armazena os dados no Snowflake, realiza transformações com DBT e visualiza os dados no Google Data Studio.
 
+
+## Modernização da Estrutura de Dados para Gestão de Vendas de Veículos na NovaDrive
+
+Este projeto tem como objetivo modernizar a estrutura de dados existente da NovaDrive para facilitar a gestão e análise de vendas de veículos, utilizando novas tecnologias de engenharia de dados.
+
+# Escopo do Projeto
+
+## Descrição do Problema
+A NovaDrive enfrenta desafios na gestão e análise de seus dados de vendas de veículos armazenados no PostgreSQL, necessitando de uma solução mais robusta e eficiente para suportar análises avançadas e operações escaláveis.
+
+## Considerações Finais
+Este projeto visa modernizar a infraestrutura de dados da NovaDrive, permitindo uma gestão mais eficiente e análises mais profundas das vendas de veículos. Com a implementação de tecnologias modernas de engenharia de dados, a empresa estará preparada para escalar suas operações e obter insights estratégicos de forma ágil e precisa.
+
 ## Estrutura do Repositório
 
 - **[1_data_analysis/](1_data_analysis/)**: Scripts e descrições relacionados à análise da estrutura do banco de dados PostgreSQL.
