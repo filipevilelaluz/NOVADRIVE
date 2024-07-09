@@ -14,13 +14,14 @@ Este projeto demonstra um pipeline de dados robusto desde a ingestão até a vis
 
 ## Arquitetura
 
-### Arquitetura do Banco de Produção
+### Arquitetura do Banco de Produção (PostgreSQL)
+*Nesse script os dados do banco de dados nãos erão fornecidos*
 
 ![Arquitetura do Banco de Produção](architecture/production_database_architecture.png)
 
 ### Arquitetura da Engenharia de Dados
 
-![Arquitetura da Engenharia de Dados](architecture/data_engineering_architecture.png)
+![Arquitetura da Engenharia de Dados](architecture/data_engineering_architecture.png.jpg)
 
 ## Como Usar
 
