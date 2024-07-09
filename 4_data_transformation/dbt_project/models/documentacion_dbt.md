@@ -5,7 +5,7 @@ O processo de transformação e modelagem de dados no DBT foi estruturado em vá
 ## Etapas do Processo
 
 1. **Criação da Área Stage com Views Materializadas:**
-   - Inicialmente, foi desenvolvida a transformação da área stage utilizando views materializadas. Isso foi realizado com o uso de Jinja 2, permitindo replicar automaticamente as alterações nas tabelas de origem para as views materializadas.
+   - Inicialmente, foi desenvolvida a transformação da área stage utilizando views materializadas `{{ config(materialized='view') }}`. Isso foi realizado com o uso de Jinja 2, permitindo replicar automaticamente as alterações nas tabelas de origem para as views materializadas.
 
 2. **Criação das Tabelas Dimensões:**
    - Em seguida, foram criadas as tabelas dimensões do tipo `config(materialized='table')` no DBT. Estas tabelas foram modeladas com informações analíticas detalhadas e regras de negócio específicas.
