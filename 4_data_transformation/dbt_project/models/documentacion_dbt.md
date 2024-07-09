@@ -16,10 +16,31 @@ O processo de transformação e modelagem de dados no DBT foi estruturado em vá
 4. **Implementação de Testes de Qualidade de Dados:**
    - Foi implementado um teste para verificar a qualidade dos dados e garantir conformidade com as regras de negócio. Por exemplo, foi configurada uma validação onde um veículo pode ter até 5% de desconto.
 
+![image](https://github.com/filipevilelaluz/my-data-engineering-project-sales/assets/74246172/2a6de163-3c86-46b8-aab0-ac6c3c02ef50)
+
+
 5. **Inserção no Schema Analytic no Snowflake:**
    - Todas as transformações foram inseridas no schema `ANALYTIC` no Snowflake. Este schema armazena informações analíticas essenciais para o negócio.
+   - 
+  ![image](https://github.com/filipevilelaluz/my-data-engineering-project-sales/assets/74246172/6039f1e2-300a-4ca4-8c26-e87a8709df29)
 
-6. **Modelagem dos Dados Refinados no Schema Analysis:**
-   - Por fim, os dados refinados foram modelados e armazenados no schema `ANALYSIS`. Este schema contém as regras de negócio críticas, como análise de vendas por concessionária, análise temporal de vendas, análise de vendas por veículo e análise de vendas por vendedor.
+6. **Modelagem dos Dados Refinados:**
+   - Por fim, os dados refinados foram modelados e armazenados em tabelas de analise. Este schema contém as regras de negócio críticas, como análise de vendas por concessionária, análise temporal de vendas, análise de vendas por veículo e análise de vendas por vendedor.
+  
+
+
+  ![image](https://github.com/filipevilelaluz/my-data-engineering-project-sales/assets/74246172/a40f7fd2-f7be-4ef8-998e-d4d569e83bff)
+
 
 Este processo estruturado no DBT facilita a manutenção, entendimento e evolução das análises de dados, promovendo uma visão analítica robusta e confiável para a organização.
+
+## Linhagem de dados do projeto
+
+![image](https://github.com/filipevilelaluz/my-data-engineering-project-sales/assets/74246172/118ca4c3-8d63-415c-ae12-2006e1ba4baa)
+
+## EXecução dos modelos
+
+![image](https://github.com/filipevilelaluz/my-data-engineering-project-sales/assets/74246172/eaac92da-3add-4380-80ac-1268913d3b60)
+
+
+
