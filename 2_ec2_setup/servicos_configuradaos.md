@@ -1,4 +1,4 @@
-# Serviços Configurados
+# Serviços Configurados do arquivo docker compose
 
 ## postgres:
 
