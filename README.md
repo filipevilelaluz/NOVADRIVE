@@ -74,7 +74,7 @@ Essa arquitetura permite uma pipeline de dados robusta e eficiente, garantindo q
 Instruções detalhadas sobre como foi configurado e executado o projeto.
 
 1. **Análise do Banco de Dados**: [1_data_analysis/](1_data_analysis/)
-2. **Configuração do EC2 e Docker**: [2_ec2_setup/](2_ec2_setup/)
+2. **Configuração do EC2 e Airflow no Docker**: [2_ec2_setup/](2_ec2_setup/)
 3. **Armazenamento dos Dados no Snowflake**: [3_data_warehouse/](3_data_warehouse/)
 4. **Transformação de Dados com DBT**: [4_data_transformation/](4_data_transformation/)
 5. **Visualizações no Google Data Studio**: [5_visualization/](5_visualization/)
